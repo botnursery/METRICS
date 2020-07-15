@@ -1,0 +1,53 @@
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+
+# Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# File: C:\Work\intelFPGA\Quartus_projects\QMTECH_Project09_Test_Ethernet\ethernet_test.csv
+# Generated on: Sun Jul 12 21:30:06 2020
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+altera_reserved_tck,Input,,,,PIN_L2,,,,,,
+altera_reserved_tdi,Input,,,,PIN_L5,,,,,,
+altera_reserved_tdo,Output,,,,PIN_L4,,,,,,
+altera_reserved_tms,Input,,,,PIN_L1,,,,,,
+e_gtxc,Output,PIN_L21,6,B6_N1,PIN_L21,3.3-V LVTTL,,,,,
+e_mdc,Output,PIN_W22,5,B5_N1,PIN_W22,3.3-V LVTTL,,,,,
+e_mdio,Bidir,PIN_W21,5,B5_N1,PIN_W21,3.3-V LVTTL,,,,,
+e_reset,Output,PIN_N22,5,B5_N0,PIN_N22,3.3-V LVTTL,,,,,
+e_rxc,Input,PIN_F21,6,B6_N0,PIN_F21,3.3-V LVTTL,,,,,
+e_rxd[7],Input,PIN_J21,6,B6_N1,PIN_J21,3.3-V LVTTL,,,,,
+e_rxd[6],Input,PIN_J22,6,B6_N1,PIN_J22,3.3-V LVTTL,,,,,
+e_rxd[5],Input,PIN_H21,6,B6_N1,PIN_H21,3.3-V LVTTL,,,,,
+e_rxd[4],Input,PIN_H22,6,B6_N1,PIN_H22,3.3-V LVTTL,,,,,
+e_rxd[3],Input,PIN_F22,6,B6_N1,PIN_F22,3.3-V LVTTL,,,,,
+e_rxd[2],Input,PIN_E21,6,B6_N0,PIN_E21,3.3-V LVTTL,,,,,
+e_rxd[1],Input,PIN_E22,6,B6_N0,PIN_E22,3.3-V LVTTL,,,,,
+e_rxd[0],Input,PIN_D21,6,B6_N0,PIN_D21,3.3-V LVTTL,,,,,
+e_rxdv,Input,PIN_D22,6,B6_N0,PIN_D22,3.3-V LVTTL,,,,,
+e_rxer,Input,PIN_K22,6,B6_N1,PIN_K22,3.3-V LVTTL,,,,,
+e_txc,Input,PIN_R22,5,B5_N0,PIN_R22,3.3-V LVTTL,,,,,
+e_txd[7],Output,PIN_V22,5,B5_N1,PIN_V22,3.3-V LVTTL,,,,,
+e_txd[6],Output,PIN_U21,5,B5_N0,PIN_U21,3.3-V LVTTL,,,,,
+e_txd[5],Output,PIN_U22,5,B5_N0,PIN_U22,3.3-V LVTTL,,,,,
+e_txd[4],Output,PIN_R21,5,B5_N0,PIN_R21,3.3-V LVTTL,,,,,
+e_txd[3],Output,PIN_P21,5,B5_N0,PIN_P21,3.3-V LVTTL,,,,,
+e_txd[2],Output,PIN_P22,5,B5_N0,PIN_P22,3.3-V LVTTL,,,,,
+e_txd[1],Output,PIN_N21,5,B5_N0,PIN_N21,3.3-V LVTTL,,,,,
+e_txd[0],Output,PIN_M21,5,B5_N0,PIN_M21,3.3-V LVTTL,,,,,
+e_txen,Output,PIN_M22,5,B5_N0,PIN_M22,3.3-V LVTTL,,,,,
+e_txer,Output,PIN_V21,5,B5_N1,PIN_V21,3.3-V LVTTL,,,,,
+fpga_gclk,Input,PIN_T2,2,B2_N0,PIN_T2,3.3-V LVTTL,,,,,
+reset_n,Input,PIN_J4,1,B1_N1,PIN_J4,3.3-V LVTTL,,,,,
