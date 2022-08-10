@@ -1,0 +1,33 @@
+SPDX-License-Identifier: MIT
+
+Copyright (c)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Solidity smart contract Will to transfer Ethers to friends or relatives when we pass away
+hosted on https://github.com/botnursery
+based on https://www.linkedin.com/pulse/solidity-smart-contract-transfer-ethers-friends-when-we-giuntoli
+
+contract_Will.sol
+
+1. The contract is intended to perform a conditional act to fulfill the asset owner's will.
+2. The contract set the number of Ethers thet the owner of the contract can transfer to other addresses at any time, and any other after the timestamp time.
+3. During the deployment of the contract, the owner sets the asset amount transferred from his address to the address of the contract and timestamp date.
+4. After the contract is deployed, the contract owner, within the asset transferred to the contract, sets the amounts and addresses where parts of the asset will have to be transferred.
+5. The owner can destroy the contract at any time with the return of the asset transferred to the contract to any address specified by the owner of the contract.
