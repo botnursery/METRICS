@@ -1,0 +1,11 @@
+Power supply problem EBAZ4205 board ZYNQ-7000
+
+When starting a user application, an error like this appears:
+"Memory write error at 0xF8000B50. Invalid DAP IDCODE. Invalid DAP ACK value: 0"
+The address is subject to change and is within the System Level Control Registers (slcr) address range
+in particular, the registers responsible for working with DDR memory.
+The reason is lack of power when using USB source and other +5V units.
+The current consumption is small, varied within 80-170mA but has not been studied in details.
+A solution is to raise the supply voltage, at 7.5V the board already worked flawlessly.
+Additionally, the place for the diode D24 was shorted, which connected the smoothing capacitors EC2, EC6.
+However, in this case, the power connector J4 should not be used due to the risk of polarity reversal !
