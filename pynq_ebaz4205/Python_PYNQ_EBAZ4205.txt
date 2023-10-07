@@ -1,0 +1,17 @@
+PYNQ is an open-source project from AMD® that makes it easier to use Adaptive Computing platforms.
+Using the Python language and libraries, designers can exploit the benefits of programmable logic and microprocessors to build more capable and exciting electronic systems.
+PYNQ can be used with Zynq, Zynq UltraScale+, Zynq RFSoC, Alveo accelerator boards and AWS-F1 to create high performance applications
+http://www.pynq.io/
+https://github.com/Xilinx/Pynq
+https://pynq.readthedocs.io/en/latest/
+#PINQ
+
+Yet another EBAZ4205 writeup #3: PYNQ!
+https://webuiltawallwebuiltthepyramids.blogspot.com/2021/01/yet-another-ebaz4205-writeup-3-pynq.html
+https://webuiltawallwebuiltthepyramids.blogspot.com/2021/03/yet-another-ebaz4205-writeup-4-pynq.html
+#PINQ #EBAZ4205
+
+Zynq on the EBAZ4205 (clock issu)
+https://discuss.pynq.io/t/zynq-on-the-ebaz4205/2328
+#PINQ #EBAZ4205 #adder.bit
+
